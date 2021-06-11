@@ -1,0 +1,13 @@
+.title {
+	@apply p-6
+  text-center
+  text-gray-800
+  font-bold
+  text-xl;
+}
+
+.pair {
+	@apply md:flex
+  md:justify-evenly
+  mb-5;
+}

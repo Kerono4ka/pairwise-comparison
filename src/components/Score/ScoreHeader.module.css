@@ -1,0 +1,13 @@
+.row {
+	@apply bg-gray-200
+  text-gray-600
+  uppercase
+  text-sm
+  leading-normal;
+}
+
+.head {
+	@apply py-3
+  px-6
+  text-center;
+}
