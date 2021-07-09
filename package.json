@@ -16,13 +16,8 @@
 		"start": "craco start",
 		"build": "craco build",
 		"test": "craco test",
-		"eject": "react-scripts eject"
-	},
-	"eslintConfig": {
-		"extends": [
-			"react-app",
-			"react-app/jest"
-		]
+		"eject": "react-scripts eject",
+		"lint": "eslint '*/**/*.{js,jsx}' --quiet --fix"
 	},
 	"browserslist": {
 		"production": [
@@ -38,8 +33,13 @@
 	},
 	"devDependencies": {
 		"autoprefixer": "^9.8.6",
+		"eslint": "^7.30.0",
+		"eslint-config-google": "^0.14.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-prettier": "^3.4.0",
 		"firebase-tools": "^9.12.1",
 		"postcss": "^7.0.35",
+		"prettier": "^2.3.2",
 		"tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.1.4"
 	}
 }
