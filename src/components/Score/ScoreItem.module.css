@@ -1,26 +1,26 @@
 .body {
-	@apply text-gray-600
+  @apply text-gray-600
   text-sm
   font-bold;
 }
 
 .row {
-	@apply border-b
+  @apply border-b
   border-gray-200;
 }
 
 .row:hover {
-	@apply hover:bg-gray-100;
+  @apply hover:bg-gray-100;
 }
 
 .text {
-	@apply py-3
+  @apply py-3
   px-6
   text-center;
 }
 
 .winner {
-	@apply py-3
+  @apply py-3
   px-6
   md:flex
   md:justify-center

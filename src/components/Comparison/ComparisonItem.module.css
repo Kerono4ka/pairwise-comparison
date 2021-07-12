@@ -1,5 +1,5 @@
 .button {
-	@apply text-green-600
+  @apply text-green-600
    text-3xl
    py-2.5
    px-5
@@ -9,16 +9,16 @@
 }
 
 .button:hover {
-	@apply hover:bg-green-300
+  @apply hover:bg-green-300
   hover:text-gray-800;
 }
 
 .button:focus {
-	@apply focus:outline-none;
+  @apply focus:outline-none;
 }
 
 .checked {
-	@apply text-gray-800
+  @apply text-gray-800
   bg-green-300
   text-3xl
   py-2.5

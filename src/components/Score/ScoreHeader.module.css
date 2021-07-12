@@ -1,5 +1,5 @@
 .row {
-	@apply bg-gray-200
+  @apply bg-gray-200
   text-gray-600
   uppercase
   text-sm
@@ -7,7 +7,7 @@
 }
 
 .head {
-	@apply py-3
+  @apply py-3
   px-6
   text-center;
 }

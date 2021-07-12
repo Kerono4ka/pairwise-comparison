@@ -1,5 +1,5 @@
 .title {
-	@apply p-6
+  @apply p-6
   text-center
   text-gray-800
   font-bold
@@ -7,7 +7,7 @@
 }
 
 .pair {
-	@apply md:flex
+  @apply md:flex
   md:justify-evenly
   mb-5;
 }

@@ -1,11 +1,11 @@
 .form {
-	@apply md:flex
+  @apply md:flex
 		md:justify-center
 		m-5;
 }
 
 .input {
-	@apply rounded-l-md
+  @apply rounded-l-md
 		p-4
 		border-t
 		mr-0
@@ -18,11 +18,11 @@
 }
 
 .input:focus {
-	@apply focus:outline-none;
+  @apply focus:outline-none;
 }
 
 .button {
-	@apply px-6
+  @apply px-6
 		rounded-r-md
 		bg-green-300
 		text-gray-800
@@ -36,13 +36,13 @@
 }
 
 .button:focus {
-	@apply focus:outline-none;
+  @apply focus:outline-none;
 }
 
 .button:hover {
-	@apply hover:bg-green-400;
+  @apply hover:bg-green-400;
 }
 
 .error {
-	@apply text-red-600;
+  @apply text-red-600;
 }
